@@ -1,0 +1,45 @@
+BCSymbolMap Version: 2.0
++[DACircularProgressLayer needsDisplayForKey:]
+-[DACircularProgressLayer drawInContext:]
++[DACircularProgressView initialize]
++[DACircularProgressView layerClass]
+-[DACircularProgressView circularProgressLayer]
+-[DACircularProgressView init]
+-[DACircularProgressView didMoveToWindow]
+-[DACircularProgressView progress]
+-[DACircularProgressView setProgress:]
+-[DACircularProgressView setProgress:animated:]
+-[DACircularProgressView setProgress:animated:initialDelay:]
+-[DACircularProgressView setProgress:animated:initialDelay:withDuration:]
+-[DACircularProgressView animationDidStop:finished:]
+-[DACircularProgressView trackTintColor]
+-[DACircularProgressView setTrackTintColor:]
+-[DACircularProgressView progressTintColor]
+-[DACircularProgressView setProgressTintColor:]
+-[DACircularProgressView innerTintColor]
+-[DACircularProgressView setInnerTintColor:]
+-[DACircularProgressView roundedCorners]
+-[DACircularProgressView setRoundedCorners:]
+-[DACircularProgressView thicknessRatio]
+-[DACircularProgressView setThicknessRatio:]
+-[DACircularProgressView indeterminate]
+-[DACircularProgressView setIndeterminate:]
+-[DACircularProgressView clockwiseProgress]
+-[DACircularProgressView setClockwiseProgress:]
+-[DACircularProgressView indeterminateDuration]
+-[DACircularProgressView setIndeterminateDuration:]
+_OBJC_IVAR_$_DACircularProgressView._indeterminateDuration
+Apple LLVM version 9.0.0 (clang-900.0.38)
+/Users/wuhaizeng/Documents/IDMPhoto/Carthage/Checkouts/DACircularProgress/DACircularProgress/DACircularProgressView.m
+/Users/wuhaizeng/Documents/IDMPhoto/Carthage/Checkouts/DACircularProgress/DACircularProgressExample
+/Users/wuhaizeng/Documents/IDMPhoto/Carthage/Checkouts/DACircularProgress/DACircularProgress/DACircularProgressView.h
+-[DALabeledCircularProgressView initWithFrame:]
+-[DALabeledCircularProgressView initWithCoder:]
+-[DALabeledCircularProgressView initializeLabel]
+-[DALabeledCircularProgressView progressLabel]
+-[DALabeledCircularProgressView setProgressLabel:]
+-[DALabeledCircularProgressView .cxx_destruct]
+_OBJC_IVAR_$_DALabeledCircularProgressView._progressLabel
+/Users/wuhaizeng/Documents/IDMPhoto/Carthage/Checkouts/DACircularProgress/DACircularProgress/DALabeledCircularProgressView.m
+/Users/wuhaizeng/Documents/IDMPhoto/Carthage/Checkouts/DACircularProgress/DACircularProgress/DALabeledCircularProgressView.h
+/Users/wuhaizeng/Library/Caches/org.carthage.CarthageKit/DerivedData/9.1_9B55/DACircularProgress/2.4.0/Build/Intermediates.noindex/ArchiveIntermediates/CarthageFramework/IntermediateBuildFilesPath/DACircularProgressExample.build/Release-iphoneos/CarthageFramework.build/DerivedSources/DACircularProgress_vers.c

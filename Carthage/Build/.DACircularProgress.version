@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "2.4.0",
+  "iOS" : [
+    {
+      "name" : "DACircularProgress",
+      "hash" : "318705d00d2087a44e7765b8ce2e1b8dd3f4f73ca4d1a266415cb8ad4f9bdfba"
+    }
+  ]
+}

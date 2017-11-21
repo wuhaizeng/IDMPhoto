@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "IDMPhotoBrowser.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,17 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)doBrower:(id)sender {
+
+    NSArray *photosURL = @[[NSURL URLWithString:@"http://b.hiphotos.baidu.com/image/pic/item/a08b87d6277f9e2fde991dc21630e924b999f348.jpg"],
+                           [NSURL URLWithString:@"http://b.hiphotos.baidu.com/image/pic/item/a08b87d6277f9e2fde991dc21630e924b999f348.jpg"],
+                           [NSURL URLWithString:@"http://b.hiphotos.baidu.com/image/pic/item/a08b87d6277f9e2fde991dc21630e924b999f348.jpg"],
+                           [NSURL URLWithString:@"http://b.hiphotos.baidu.com/image/pic/item/a08b87d6277f9e2fde991dc21630e924b999f348.jpg"]];
+
+
+    IDMPhotoBrowser *browser = [[IDMPhotoBrowser alloc] initWithPhotoURLs:photosURL];
+    [self presentViewController:browser animated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -1,0 +1,3 @@
+github "facebook/pop" "1.0.10"
+github "rs/SDWebImage" "4.0.0"
+github "wuhaizeng/DACircularProgress" "2.4.0"
